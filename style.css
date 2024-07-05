@@ -1,0 +1,188 @@
+.header{
+    display: flex;
+    flex-direction: row;
+    position: sticky;
+    top: 0;
+    background-color: white;
+}
+
+.header img{
+    margin-right: 12pc;
+    margin-top: 5px;
+    height: 20px;
+    width: 100px;
+}
+.list{
+    height: 35px;
+    width: 40px;
+    background-color: white;
+    top: 0;
+    margin: 0 15px 5px 0;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.list i{
+    margin-top: 8px;
+    margin-left: 10px;
+}
+.list:hover{
+    background-color:  #c0bfbf;
+}
+.search-icon{
+ background-color: #ffff;
+ height: 36px;
+ width: 500px;
+ border: 0.5px solid black;
+ border-radius:  25px 0 0 25px;
+ opacity: 0.5;
+ cursor: text;
+ position: relative;
+}
+.search-icon h2 {
+    font-family: "Montserrat", sans-serif;
+    margin: 6px 0 5px 15px;
+    font-weight: 400;
+    letter-spacing: 0cap;
+    font-size: 16px;
+    align-items: center;
+}
+.search-btn {
+    background-color: #dad4d4;
+    height: 36px;
+    width: 50px;
+    border: 0.5px solid black;
+    border-left: hidden;
+    border-radius:  0 25px 25px 0;
+    opacity: 0.5;
+    cursor: pointer;
+}
+.search-btn i{
+    height: 25px;
+    width: 25px;
+    cursor: pointer;
+    opacity: 1;
+    margin-left: 15px;
+    margin-top: 10px;
+}
+.search-btn:hover {
+    background-color: #c0bfbf;
+}
+.mick {
+    height: 40px;
+    width: 40px;
+    background-color: #f8f8f8;
+    border-radius: 50%;
+    margin-left: 10px;
+    margin-right: 12pc;
+    cursor: pointer;
+}
+.mick i {
+    margin-left: 12px;
+    margin-top: 10px;
+    margin-right: 10px;
+    font-size: 20px;
+}
+.mick:hover,.create:hover,.notify:hover {
+    background-color: #c0bfbf;
+}
+.create i {
+    margin-left: 10px;
+    margin-top: 10px;
+    font-size: 20px;
+}
+.notify,.create,.user {
+    height: 40px;
+    width: 40px;
+    background-color: white;
+    margin-left: 5px;
+    cursor: pointer;
+    border-radius: 50%;
+}
+.notify i {
+    margin-left: 11px;
+    margin-top: 10px;   
+    font-size: 20px;
+}
+.user i{
+    margin-left: 12px;
+    margin-top: 10px;   
+    font-size: 20px;
+}
+.main-bar {
+    display: flex;
+    flex-direction: row;
+}
+.side-bar {
+    margin: 10px 10px 10px 10px; 
+    width: 13rem;
+    display: flex;
+    flex-direction: column;
+    position: fixed;
+} 
+.home,.shorts,.subscribe,.setting,.you,.history,
+.music,.movies,.game,.news,.sports,
+.courses,.podcast{
+    background-color: white;
+    display: flex inline;
+    height: 35px;
+    width: 13rem;
+    border-radius: 10px;
+}
+.home i,.shorts i, .subscribe i,.setting i,.you i,.history i,
+.music i,.movies i,.game i,.news i,.sports i,
+.courses i,.podcast i{
+    margin-top: 8px;
+    margin-left: 10px;
+}
+.home a,.shorts a,.subscribe a,.setting a,.you a,.history a,
+.music a,.movies a,.game a,.news a,.sports a,
+.courses a,.podcast a{
+    text-decoration: none;
+    color: black;
+    margin-left: 25px;
+    margin-top: 8px;
+    font-weight: 500;
+    font-family: "Montserrat", sans-serif;
+   font-optical-sizing: auto;
+   font-size: small;
+}
+.home:hover,.shorts:hover,.subscribe:hover,.setting:hover,.you:hover,.history:hover,
+.music:hover,.movies:hover,.game:hover,.news:hover,.sports:hover,
+.courses:hover,.podcast:hover{
+    background-color: #c0bfbf;
+}
+.main-box{
+    margin-top: 20px;
+    margin-left: 13rem;
+    display: flex;
+    flex-wrap: wrap;
+
+}
+.card{
+    height: 15rem;
+    margin: 1rem;
+    cursor: pointer;
+}
+.card-img-top {
+    height: 10rem;
+    width: 18rem;
+    border-radius: 10px;
+}
+.card-img-top:hover{
+    border-radius: 0%;
+}
+.title{
+    margin: 0%;
+    padding: 0%;
+    font-weight: 600;
+}
+.card p,h5{
+  font-family: "Montserrat", sans-serif;
+  font-optical-sizing: auto;
+  font-size: small;
+}
+.info{
+    margin: 0%;
+    padding: 0%;
+    font-weight: 400;
+}
